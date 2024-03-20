@@ -83,6 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
                 child: const Text('send'),
               ),
+              const SizedBox(width: 20),
             ],
           ),
           const SizedBox(height: 20),
@@ -91,3 +92,16 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+/*
+Connecting Flutter application to Localhost 
+
+** ios emulator
+http://localhost:SPECIFIC_PORT
+ or 
+http://127.0.0.1:SPECIFIC_PORT
+
+** android emulator
+http://10.0.2.2:SPECIFIC_PORT/
+
+ */
